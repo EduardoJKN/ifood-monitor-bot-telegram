@@ -16,20 +16,26 @@ def _norm_status(value: Any) -> str:
 
 
 def gerar_dashboard_html(historico: Iterable[dict], cfg: AppConfig) -> str:
-    """
-    Gera o dashboard HTML a partir do histórico (lista de dicts) e,
-    se configurado, faz upload para o GitHub.
-    """
-
-    # Garante que temos uma lista
-    historico = list(historico or [])
-
-    # Caminho do arquivo HTML de saída
-    if hasattr(cfg, "dashboard_output"):
-        arquivo_dashboard = Path(cfg.dashboard_output)
-    else:
-        base_dir = Path(__file__).resolve().parent.parent
-        arquivo_dashboard = base_dir / "index.html"
+    # ... código anterior ...
+    
+    # Na parte da agregação (por volta da linha 58), altere:
+    for r in registros_ultimo:
+        secao = r.get("secao") or r.get("Seção") or "Desconhecida"
+        
+        # Pega o status de qualquer campo possível e normaliza
+        status_raw = r.get("status") or r.get("Status") or ""
+        status = str(status_raw).strip().upper()
+        
+        # VERIFICAÇÃO MELHORADA
+        if status == "ON":
+            total_on += 1
+            on_por_secao[secao] += 1
+        else:
+            # Considera como OFF qualquer coisa que não seja ON
+            total_off += 1
+            off_por_secao[secao] += 1
+    
+    # ... resto do código ...
 
     if not historico:
         ultima_atualizacao = str(horario_brasil())
