@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Monitoramento de Produtos iFood - Demo</title>
+    <style>
+
+    :root {
+        --bg: #0f172a;
+        --bg-card: #111827;
+        --border: #1f2937;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --on: #22c55e;
+        --off: #ef4444;
+        --warn: #f97316;
+        --accent: #38bdf8;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 24px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: radial-gradient(circle at top, #1f2937 0, #020617 55%, #000 100%);
+        color: var(--text);
+    }
+
+    header {
+        margin-bottom: 24px;
+    }
+
+    header h1 {
+        margin: 0 0 4px 0;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    header p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .cards-resumo {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .card {
+        padding: 16px 18px;
+        border-radius: 16px;
+        background: linear-gradient(145deg, #020617, #020617);
+        border: 1px solid var(--border);
+        box-shadow: 0 18px 50px rgba(0,0,0,0.6);
+    }
+
+    .card h2 {
+        margin: 0 0 8px 0;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--muted);
+    }
+
+    .card .valor {
+        margin: 0;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .card.on .valor {
+        color: var(--on);
+    }
+
+    .card.off .valor {
+        color: var(--off);
+    }
+
+    .card.desaparecidos .valor {
+        color: var(--warn);
+    }
+
+    .secao-tabela h2 {
+        margin: 0 0 12px 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 16px;
+        overflow: hidden;
+        background-color: rgba(15,23,42,0.8);
+        border: 1px solid var(--border);
+    }
+
+    thead {
+        background: linear-gradient(90deg, rgba(56,189,248,0.16), rgba(56,189,248,0.02));
+    }
+
+    th, td {
+        padding: 10px 12px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    th {
+        font-weight: 500;
+        color: var(--muted);
+        border-bottom: 1px solid var(--border);
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: rgba(15,23,42,0.9);
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: rgba(17,24,39,0.9);
+    }
+
+    tbody tr:hover {
+        background: radial-gradient(circle at left, rgba(56,189,248,0.18), transparent);
+    }
+
+    footer {
+        margin-top: 24px;
+        font-size: 12px;
+        color: var(--muted);
+    }
+
+    @media (max-width: 900px) {
+        .cards-resumo {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 600px) {
+        .cards-resumo {
+            grid-template-columns: 1fr;
+        }
+
+        body {
+            padding: 16px;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Monitoramento de Produtos iFood - Demo</h1>
+        <p>Última atualização: 2025-12-08 22:05:28.923556</p>
+    </header>
+
+    <section class="cards-resumo">
+        <div class="card total">
+            <h2>Total de registros no histórico</h2>
+            <p class="valor">165</p>
+        </div>
+        <div class="card on">
+            <h2>Produtos ON</h2>
+            <p class="valor">0</p>
+        </div>
+        <div class="card off">
+            <h2>Produtos OFF</h2>
+            <p class="valor">165</p>
+        </div>
+        <div class="card desaparecidos">
+            <h2>Produtos que já desapareceram alguma vez</h2>
+            <p class="valor">0</p>
+        </div>
+    </section>
+
+    <section class="secao-tabela">
+        <h2>Resumo por seção</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Seção</th>
+                    <th>Total de registros</th>
+                    <th>ON</th>
+                    <th>OFF</th>
+                    <th>Desapareceu alguma vez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Açaís</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Bebidas</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Complementos</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Descontinhos pra você ;)</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Destaques</td>
+                    <td>9</td>
+                    <td>0</td>
+                    <td>9</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Força, foco e fé</td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Mimo por R$2,99</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Novos Wraps - Novo formato e tamanho</td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Novos Wraps - Novo tamanho e formato</td>
+                    <td>13</td>
+                    <td>0</td>
+                    <td>13</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Não julgue minha cumbuca ;)</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Oferta do mês</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Para começar (Entradas)</td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Poke Face | Promoção da Lady!</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Promoções</td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Promoções: Leva pra mais tarde</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Santas Promoções (só até 23/04)</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Sobremesas</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Suchás</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Tô diferente</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Tô veggie</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Wrap Combos</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Wrap Naighty!</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>[Novidade] Personalize sua Cumbuca!</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Açaís •</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Bebidas •</td>
+                    <td>13</td>
+                    <td>0</td>
+                    <td>13</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Destaque •</td>
+                    <td>5</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Força, foco e fé •</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Não julgue minha cumbuca •</td>
+                    <td>9</td>
+                    <td>0</td>
+                    <td>9</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Sobremesas •</td>
+                    <td>5</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Suchás •</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Tô diferente •</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>• Tô veggie •</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>Gerado automaticamente pelo monitor de produtos iFood (demo em CSV).</p>
+    </footer>
+</body>
+</html>

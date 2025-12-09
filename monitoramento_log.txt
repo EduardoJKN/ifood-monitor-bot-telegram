@@ -1,0 +1,558 @@
+[2025-05-22 21:46:49] Iniciando monitoramento de produtos
+[2025-05-22 21:47:04] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-22 21:47:05] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-22 21:53:10] Iniciando monitoramento de produtos
+[2025-05-22 21:53:26] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-22 21:53:27] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-22 22:27:25] Iniciando monitoramento de produtos
+[2025-05-22 22:27:41] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-22 22:27:42] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-22 23:20:33] Iniciando monitoramento de produtos
+[2025-05-22 23:20:53] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 11:18:19] Iniciando monitoramento de produtos
+[2025-05-23 11:18:31] ALERTA: 12 produtos desapareceram
+[2025-05-23 11:18:33] Monitoramento concluído. Total: 84, OFF: 12, Desaparecidos: 12
+[2025-05-23 11:18:34] ALERTA: 12 produtos com problemas
+[2025-05-23 08:53:58] Iniciando monitoramento de produtos
+[2025-05-23 08:54:14] Monitoramento concluído. Total: 84, OFF: 0, Desaparecidos: 0
+[2025-05-23 08:54:15] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 09:04:23] Iniciando monitoramento de produtos
+[2025-05-23 09:04:39] Monitoramento concluído. Total: 84, OFF: 0, Desaparecidos: 0
+[2025-05-23 09:04:40] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 09:42:53] Iniciando monitoramento de produtos
+[2025-05-23 09:43:11] Monitoramento concluído. Total: 84, OFF: 0, Desaparecidos: 0
+[2025-05-23 09:43:12] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 10:31:50] Iniciando monitoramento de produtos
+[2025-05-23 10:32:08] Monitoramento concluído. Total: 84, OFF: 0, Desaparecidos: 0
+[2025-05-23 10:32:09] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 11:22:07] Iniciando monitoramento de produtos
+[2025-05-23 11:22:23] Monitoramento concluído. Total: 86, OFF: 0, Desaparecidos: 0
+[2025-05-23 11:22:23] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 12:23:08] Iniciando monitoramento de produtos
+[2025-05-23 12:23:22] Monitoramento concluído. Total: 86, OFF: 0, Desaparecidos: 0
+[2025-05-23 12:23:23] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 13:27:10] Iniciando monitoramento de produtos
+[2025-05-23 13:27:27] Monitoramento concluído. Total: 86, OFF: 0, Desaparecidos: 0
+[2025-05-23 13:27:28] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 14:19:32] Iniciando monitoramento de produtos
+[2025-05-23 14:19:51] Monitoramento concluído. Total: 86, OFF: 0, Desaparecidos: 0
+[2025-05-23 14:19:52] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 15:29:12] Iniciando monitoramento de produtos
+[2025-05-23 15:29:27] Monitoramento concluído. Total: 86, OFF: 0, Desaparecidos: 0
+[2025-05-23 15:29:28] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 16:17:25] Iniciando monitoramento de produtos
+[2025-05-23 16:17:43] Monitoramento concluído. Total: 86, OFF: 0, Desaparecidos: 0
+[2025-05-23 16:17:44] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 17:24:08] Iniciando monitoramento de produtos
+[2025-05-23 17:24:24] ALERTA: 2 produtos desapareceram
+[2025-05-23 17:24:28] Monitoramento concluído. Total: 96, OFF: 2, Desaparecidos: 2
+[2025-05-23 17:24:29] ALERTA: 2 produtos com problemas
+[2025-05-23 18:18:24] Iniciando monitoramento de produtos
+[2025-05-23 18:18:42] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-23 18:18:42] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 19:20:34] Iniciando monitoramento de produtos
+[2025-05-23 19:20:52] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-23 19:20:53] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-23 20:20:28] Iniciando monitoramento de produtos
+[2025-05-23 20:20:43] ALERTA: 1 produtos desapareceram
+[2025-05-23 20:20:45] Monitoramento concluído. Total: 95, OFF: 1, Desaparecidos: 1
+[2025-05-23 20:20:46] ALERTA: 1 produtos com problemas
+[2025-05-24 08:17:26] Iniciando monitoramento de produtos
+[2025-05-24 08:17:41] ALERTA: 14 produtos desapareceram
+[2025-05-24 08:17:43] Monitoramento concluído. Total: 88, OFF: 14, Desaparecidos: 14
+[2025-05-24 08:17:44] ALERTA: 14 produtos com problemas
+[2025-05-24 09:39:23] Iniciando monitoramento de produtos
+[2025-05-24 09:39:38] Monitoramento concluído. Total: 88, OFF: 0, Desaparecidos: 0
+[2025-05-24 09:39:39] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 10:28:13] Iniciando monitoramento de produtos
+[2025-05-24 10:28:31] Monitoramento concluído. Total: 92, OFF: 0, Desaparecidos: 0
+[2025-05-24 10:28:32] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 11:17:55] Iniciando monitoramento de produtos
+[2025-05-24 11:18:12] Monitoramento concluído. Total: 94, OFF: 0, Desaparecidos: 0
+[2025-05-24 11:18:12] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 12:20:46] Iniciando monitoramento de produtos
+[2025-05-24 12:21:05] Monitoramento concluído. Total: 94, OFF: 0, Desaparecidos: 0
+[2025-05-24 12:21:06] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 13:25:11] Iniciando monitoramento de produtos
+[2025-05-24 13:25:29] Monitoramento concluído. Total: 94, OFF: 0, Desaparecidos: 0
+[2025-05-24 13:25:30] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 14:17:25] Iniciando monitoramento de produtos
+[2025-05-24 14:17:42] Monitoramento concluído. Total: 94, OFF: 0, Desaparecidos: 0
+[2025-05-24 14:17:43] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 15:27:49] Iniciando monitoramento de produtos
+[2025-05-24 15:28:07] Monitoramento concluído. Total: 94, OFF: 0, Desaparecidos: 0
+[2025-05-24 15:28:08] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 16:16:02] Iniciando monitoramento de produtos
+[2025-05-24 16:16:19] Monitoramento concluído. Total: 94, OFF: 0, Desaparecidos: 0
+[2025-05-24 16:16:19] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 17:22:07] Iniciando monitoramento de produtos
+[2025-05-24 17:22:24] ALERTA: 2 produtos desapareceram
+[2025-05-24 17:22:28] Monitoramento concluído. Total: 104, OFF: 2, Desaparecidos: 2
+[2025-05-24 17:22:29] ALERTA: 2 produtos com problemas
+[2025-05-24 18:18:47] Iniciando monitoramento de produtos
+[2025-05-24 18:19:05] Monitoramento concluído. Total: 104, OFF: 0, Desaparecidos: 0
+[2025-05-24 18:19:07] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 19:19:33] Iniciando monitoramento de produtos
+[2025-05-24 19:19:49] Monitoramento concluído. Total: 104, OFF: 0, Desaparecidos: 0
+[2025-05-24 19:19:50] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-24 20:19:51] Iniciando monitoramento de produtos
+[2025-05-24 20:20:08] Monitoramento concluído. Total: 104, OFF: 0, Desaparecidos: 0
+[2025-05-24 20:20:08] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 08:16:28] Iniciando monitoramento de produtos
+[2025-05-25 08:16:42] ALERTA: 13 produtos desapareceram
+[2025-05-25 08:16:46] Monitoramento concluído. Total: 91, OFF: 13, Desaparecidos: 13
+[2025-05-25 08:16:47] ALERTA: 13 produtos com problemas
+[2025-05-25 09:40:12] Iniciando monitoramento de produtos
+[2025-05-25 09:40:30] Monitoramento concluído. Total: 91, OFF: 0, Desaparecidos: 0
+[2025-05-25 09:40:31] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 10:27:18] Iniciando monitoramento de produtos
+[2025-05-25 10:27:34] Monitoramento concluído. Total: 91, OFF: 0, Desaparecidos: 0
+[2025-05-25 10:27:35] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 11:20:16] Iniciando monitoramento de produtos
+[2025-05-25 11:20:34] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-25 11:20:34] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 12:21:03] Iniciando monitoramento de produtos
+[2025-05-25 12:21:25] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-25 12:21:26] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 13:24:51] Iniciando monitoramento de produtos
+[2025-05-25 13:25:08] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-25 13:25:09] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 14:17:16] Iniciando monitoramento de produtos
+[2025-05-25 14:17:32] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-25 14:17:33] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 15:28:47] Iniciando monitoramento de produtos
+[2025-05-25 15:29:10] ❌ Tempo esgotado esperando a página carregar os produtos.
+[2025-05-25 16:16:09] Iniciando monitoramento de produtos
+[2025-05-25 16:16:25] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-25 16:16:26] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 17:22:08] Iniciando monitoramento de produtos
+[2025-05-25 17:22:23] ALERTA: 2 produtos desapareceram
+[2025-05-25 17:22:25] Monitoramento concluído. Total: 106, OFF: 2, Desaparecidos: 2
+[2025-05-25 17:22:25] ALERTA: 2 produtos com problemas
+[2025-05-25 18:18:56] Iniciando monitoramento de produtos
+[2025-05-25 18:19:13] Monitoramento concluído. Total: 106, OFF: 0, Desaparecidos: 0
+[2025-05-25 18:19:14] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 19:19:41] Iniciando monitoramento de produtos
+[2025-05-25 19:19:58] Monitoramento concluído. Total: 106, OFF: 0, Desaparecidos: 0
+[2025-05-25 19:19:58] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-25 20:19:53] Iniciando monitoramento de produtos
+[2025-05-25 20:20:10] Monitoramento concluído. Total: 106, OFF: 0, Desaparecidos: 0
+[2025-05-25 20:20:11] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 08:17:33] Iniciando monitoramento de produtos
+[2025-05-26 08:17:50] ALERTA: 12 produtos desapareceram
+[2025-05-26 08:17:52] Monitoramento concluído. Total: 94, OFF: 12, Desaparecidos: 12
+[2025-05-26 08:17:53] ALERTA: 12 produtos com problemas
+[2025-05-26 09:42:45] Iniciando monitoramento de produtos
+[2025-05-26 09:43:03] Monitoramento concluído. Total: 94, OFF: 0, Desaparecidos: 0
+[2025-05-26 09:43:04] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 10:31:15] Iniciando monitoramento de produtos
+[2025-05-26 10:31:31] Monitoramento concluído. Total: 94, OFF: 0, Desaparecidos: 0
+[2025-05-26 10:31:32] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 11:21:52] Iniciando monitoramento de produtos
+[2025-05-26 11:22:09] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-26 11:22:09] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 12:23:17] Iniciando monitoramento de produtos
+[2025-05-26 12:23:32] ALERTA: 2 produtos desapareceram
+[2025-05-26 12:23:36] Monitoramento concluído. Total: 96, OFF: 2, Desaparecidos: 2
+[2025-05-26 12:23:37] ALERTA: 2 produtos com problemas
+[2025-05-26 13:26:50] Iniciando monitoramento de produtos
+[2025-05-26 13:27:07] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-26 13:27:07] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 14:18:23] Iniciando monitoramento de produtos
+[2025-05-26 14:18:41] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-26 14:18:42] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 15:29:20] Iniciando monitoramento de produtos
+[2025-05-26 15:29:36] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-26 15:29:36] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 16:17:24] Iniciando monitoramento de produtos
+[2025-05-26 16:17:43] Monitoramento concluído. Total: 96, OFF: 0, Desaparecidos: 0
+[2025-05-26 16:17:44] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 17:23:52] Iniciando monitoramento de produtos
+[2025-05-26 17:24:07] ALERTA: 2 produtos desapareceram
+[2025-05-26 17:24:10] Monitoramento concluído. Total: 106, OFF: 2, Desaparecidos: 2
+[2025-05-26 17:24:11] ALERTA: 2 produtos com problemas
+[2025-05-26 18:19:24] Iniciando monitoramento de produtos
+[2025-05-26 18:19:40] ALERTA: 2 produtos desapareceram
+[2025-05-26 18:19:42] Monitoramento concluído. Total: 116, OFF: 2, Desaparecidos: 2
+[2025-05-26 18:19:43] ALERTA: 2 produtos com problemas
+[2025-05-26 19:19:58] Iniciando monitoramento de produtos
+[2025-05-26 19:20:17] Monitoramento concluído. Total: 116, OFF: 0, Desaparecidos: 0
+[2025-05-26 19:20:17] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-26 20:19:49] Iniciando monitoramento de produtos
+[2025-05-26 20:20:07] Monitoramento concluído. Total: 116, OFF: 0, Desaparecidos: 0
+[2025-05-26 20:20:08] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 08:18:51] Iniciando monitoramento de produtos
+[2025-05-27 08:19:07] ALERTA: 12 produtos desapareceram
+[2025-05-27 08:19:12] Monitoramento concluído. Total: 104, OFF: 12, Desaparecidos: 12
+[2025-05-27 08:19:13] ALERTA: 12 produtos com problemas
+[2025-05-27 09:46:37] Iniciando monitoramento de produtos
+[2025-05-27 09:46:54] Monitoramento concluído. Total: 105, OFF: 0, Desaparecidos: 0
+[2025-05-27 09:46:55] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 10:34:12] Iniciando monitoramento de produtos
+[2025-05-27 10:34:30] Monitoramento concluído. Total: 105, OFF: 0, Desaparecidos: 0
+[2025-05-27 10:34:30] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 11:21:42] Iniciando monitoramento de produtos
+[2025-05-27 11:21:58] ALERTA: 13 produtos desapareceram
+[2025-05-27 11:22:02] Monitoramento concluído. Total: 95, OFF: 13, Desaparecidos: 13
+[2025-05-27 11:22:03] ALERTA: 13 produtos com problemas
+[2025-05-27 12:24:31] Iniciando monitoramento de produtos
+[2025-05-27 12:24:51] Monitoramento concluído. Total: 95, OFF: 0, Desaparecidos: 0
+[2025-05-27 12:24:52] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 13:28:25] Iniciando monitoramento de produtos
+[2025-05-27 13:28:41] Monitoramento concluído. Total: 95, OFF: 0, Desaparecidos: 0
+[2025-05-27 13:28:41] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 14:19:40] Iniciando monitoramento de produtos
+[2025-05-27 14:19:56] Monitoramento concluído. Total: 95, OFF: 0, Desaparecidos: 0
+[2025-05-27 14:19:57] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 15:29:38] Iniciando monitoramento de produtos
+[2025-05-27 15:29:55] Monitoramento concluído. Total: 95, OFF: 0, Desaparecidos: 0
+[2025-05-27 15:29:55] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 16:17:18] Iniciando monitoramento de produtos
+[2025-05-27 16:17:37] Monitoramento concluído. Total: 95, OFF: 0, Desaparecidos: 0
+[2025-05-27 16:17:38] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 17:26:07] Iniciando monitoramento de produtos
+[2025-05-27 17:26:24] ALERTA: 2 produtos desapareceram
+[2025-05-27 17:26:27] Monitoramento concluído. Total: 105, OFF: 2, Desaparecidos: 2
+[2025-05-27 17:26:28] ALERTA: 2 produtos com problemas
+[2025-05-27 18:21:40] Iniciando monitoramento de produtos
+[2025-05-27 18:22:00] Monitoramento concluído. Total: 105, OFF: 0, Desaparecidos: 0
+[2025-05-27 18:22:01] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 19:20:43] Iniciando monitoramento de produtos
+[2025-05-27 19:20:59] Monitoramento concluído. Total: 105, OFF: 0, Desaparecidos: 0
+[2025-05-27 19:21:00] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-27 20:20:06] Iniciando monitoramento de produtos
+[2025-05-27 20:20:21] ALERTA: 2 produtos desapareceram
+[2025-05-27 20:20:25] Monitoramento concluído. Total: 103, OFF: 2, Desaparecidos: 2
+[2025-05-27 20:20:26] ALERTA: 2 produtos com problemas
+[2025-05-28 08:19:17] Iniciando monitoramento de produtos
+[2025-05-28 08:19:31] ALERTA: 11 produtos desapareceram
+[2025-05-28 08:19:34] Monitoramento concluído. Total: 93, OFF: 11, Desaparecidos: 11
+[2025-05-28 08:19:35] ALERTA: 11 produtos com problemas
+[2025-05-28 09:45:35] Iniciando monitoramento de produtos
+[2025-05-28 09:45:51] Monitoramento concluído. Total: 93, OFF: 0, Desaparecidos: 0
+[2025-05-28 09:45:52] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-28 10:34:31] Iniciando monitoramento de produtos
+[2025-05-28 10:34:51] Monitoramento concluído. Total: 93, OFF: 0, Desaparecidos: 0
+[2025-05-28 10:34:52] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-28 12:09:27] Iniciando monitoramento de produtos
+[2025-05-28 12:09:40] ALERTA: 7 produtos desapareceram
+[2025-05-28 12:09:43] Monitoramento concluído. Total: 88, OFF: 7, Desaparecidos: 7
+[2025-05-28 12:09:43] ALERTA: 7 produtos com problemas
+[2025-05-28 12:24:30] Iniciando monitoramento de produtos
+[2025-05-28 12:24:50] Monitoramento concluído. Total: 88, OFF: 0, Desaparecidos: 0
+[2025-05-28 12:24:51] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-28 13:28:35] Iniciando monitoramento de produtos
+[2025-05-28 13:28:51] Monitoramento concluído. Total: 88, OFF: 0, Desaparecidos: 0
+[2025-05-28 13:28:52] Todos os produtos estão ON e nenhum desapareceu
+[2025-05-28 14:19:44] Iniciando monitoramento de produtos
+[2025-05-28 14:20:01] Monitoramento concluído. Total: 88, OFF: 0, Desaparecidos: 0
+[2025-05-28 14:20:01] Todos os produtos estão ON e nenhum desapareceu
+[2025-12-08 15:40:40] Iniciando monitoramento (CSV)
+[2025-12-08 15:40:40] ❌ Erro ao ler CSV de produtos: Coluna obrigatória 'Secao' não encontrada em produtos_ifood_demo.csv
+[2025-12-08 16:04:13] Iniciando monitoramento (CSV)
+[2025-12-08 16:04:14] 88 produtos desapareceram
+[2025-12-08 16:04:14] Total de 101 produtos com problemas (OFF ou desaparecidos).
+[2025-12-08 16:45:53] Iniciando monitoramento (CSV)
+[2025-12-08 16:45:53] Total de 13 produtos com problemas (OFF ou desaparecidos).
+2025-12-08 19:02:01,504 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 19:02:01.504521
+2025-12-08 19:02:01,509 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar estado_produtos.json.
+2025-12-08 19:02:01,509 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar historico_status.json.
+2025-12-08 19:02:01,512 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 19:02:01,520 - INFO - CSV carregado com 42 produtos.
+2025-12-08 19:02:01,520 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 19:02:01,522 - INFO - Estado atual salvo com 42 produtos em estado_produtos.json
+2025-12-08 19:02:01,523 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de estado_produtos.json.
+2025-12-08 19:02:01,525 - INFO - Histórico carregado com 165 produtos
+2025-12-08 19:02:01,530 - INFO - Histórico atualizado com 165 produtos em historico_status.json
+2025-12-08 19:02:01,531 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de historico_status.json.
+2025-12-08 19:02:01,532 - INFO - Dashboard HTML gerado em index.html
+2025-12-08 19:02:01,532 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de index.html.
+2025-12-08 19:02:01,643 - INFO - Relatório Excel gerado em produtos_ifood.xlsx
+2025-12-08 19:02:01,643 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de produtos_ifood.xlsx.
+2025-12-08 19:02:01,644 - WARNING - TELEGRAM_TOKEN ou TELEGRAM_CHAT_ID não configurados. Pulando envio.
+2025-12-08 19:02:01,644 - INFO - Monitoramento concluído: {'total_produtos': 42, 'produtos_off': [{'secao': 'Descontinhos pra você ;)', 'nome': 'Cumbuca Mini Veggie', 'preco': 'R$ 18,90', 'descricao': 'Cumbuca vegetariana com legumes.', 'status': 'OFF'}, {'secao': 'Destaques', 'nome': 'Cumbuca Clássica Veggie', 'preco': 'R$ 27,90', 'descricao': 'Versão vegetariana da clássica.', 'status': 'OFF'}, {'secao': 'Mimo por R$2,99', 'nome': 'Mini Pudim', 'preco': 'R$ 2,99', 'descricao': 'Pudim individual.', 'status': 'OFF'}, {'secao': 'Novos Wraps - Novo tamanho e formato', 'nome': 'Wrap Carne Desfiada', 'preco': 'R$ 26,90', 'descricao': 'Wrap de carne com queijo.', 'status': 'OFF'}, {'secao': 'Para começar (Entradas)', 'nome': 'Dadinho de Tapioca', 'preco': 'R$ 22,90', 'descricao': 'Com geleia de pimenta.', 'status': 'OFF'}, {'secao': 'Promoções', 'nome': 'Cumbuca Surpresa', 'preco': 'R$ 22,90', 'descricao': 'Chef escolhe o sabor.', 'status': 'OFF'}, {'secao': '[Novidade] Personalize sua Cumbuca!', 'nome': 'Cumbuca Low Carb', 'preco': 'R$ 34,90', 'descricao': 'Base de legumes, sem arroz.', 'status': 'OFF'}, {'secao': 'Açaís', 'nome': 'Açaí Proteico', 'preco': 'R$ 24,90', 'descricao': 'Com whey de baunilha.', 'status': 'OFF'}, {'secao': 'Bebidas', 'nome': 'Suco de Laranja Natural', 'preco': 'R$ 9,90', 'descricao': 'Feito na hora.', 'status': 'OFF'}, {'secao': 'Não julgue minha cumbuca ;)', 'nome': 'Cumbuca Tudo Junto', 'preco': 'R$ 42,90', 'descricao': 'Mistura de todos os acompanhamentos.', 'status': 'OFF'}, {'secao': 'Sobremesas', 'nome': 'Mousse de Maracujá', 'preco': 'R$ 10,90', 'descricao': 'Mousse caseiro.', 'status': 'OFF'}, {'secao': 'Suchás', 'nome': 'Suchá Maçã com Canela', 'preco': 'R$ 12,90', 'descricao': 'Perfeito para dias frios.', 'status': 'OFF'}, {'secao': 'Tô veggie', 'nome': 'Cumbuca Veggie Gratinada', 'preco': 'R$ 29,90', 'descricao': 'Com queijo gratinado por cima.', 'status': 'OFF'}], 'produtos_desaparecidos': [], 'total_produtos_ativos': 29, 'timestamp': '2025-12-08 19:02:01.644524'}
+2025-12-08 19:15:29,877 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 19:15:29.877241
+2025-12-08 19:16:38,585 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 19:16:38.585142
+2025-12-08 19:16:38,585 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 19:16:38,585 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 19:16:38,601 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 19:19:38,873 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 19:19:38.873358
+2025-12-08 19:19:38,874 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 19:19:38,875 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 19:19:38,875 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 19:19:38,885 - ERROR - Erro ao ler CSV de produtos: Colunas obrigatórias ausentes no CSV: {'nome'}
+Traceback (most recent call last):
+  File "C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\src\monitor.py", line 35, in carregar_produtos_csv
+    raise ValueError(f"Colunas obrigatórias ausentes no CSV: {faltando}")
+ValueError: Colunas obrigatórias ausentes no CSV: {'nome'}
+2025-12-08 19:22:27,362 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 19:22:27.362048
+2025-12-08 19:22:27,363 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 19:22:27,363 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 19:22:27,364 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 19:22:27,373 - INFO - CSV carregado com 42 produtos.
+2025-12-08 19:22:27,373 - INFO - CSV carregado com 42 produtos.
+2025-12-08 19:30:28,620 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 19:30:28.620382
+2025-12-08 19:30:28,620 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 19:30:28,621 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 19:30:28,622 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 19:30:28,636 - INFO - CSV carregado com 42 produtos.
+2025-12-08 19:30:28,636 - INFO - CSV carregado com 42 produtos.
+2025-12-08 19:36:01,290 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 19:36:01.290981
+2025-12-08 19:36:01,292 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 19:36:01,292 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 19:36:01,293 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 19:36:01,306 - INFO - CSV carregado com 42 produtos.
+2025-12-08 19:36:01,306 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 19:41:08,943 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 19:41:08.943394
+2025-12-08 19:41:08,944 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 19:41:08,944 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 19:41:08,945 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 19:41:08,949 - INFO - CSV carregado com 42 produtos.
+2025-12-08 19:41:08,950 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 19:41:08,953 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 19:41:08,953 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 19:41:08,966 - INFO - Histórico carregado com 165 produtos
+2025-12-08 19:41:08,971 - INFO - Histórico atualizado com 165 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 19:41:08,972 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:14:09,594 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:14:09.594267
+2025-12-08 20:14:09,595 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:14:09,596 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:14:09,607 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 20:14:09,615 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:14:09,615 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:14:09,617 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:14:09,617 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:14:09,631 - INFO - Histórico carregado com 165 produtos
+2025-12-08 20:14:09,636 - INFO - Histórico atualizado com 165 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:14:09,637 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:14:09,640 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 20:14:09,640 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 20:17:37,263 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:17:37.263960
+2025-12-08 20:17:37,264 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:17:37,266 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:17:37,278 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 20:17:37,284 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:17:37,285 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:17:37,286 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:17:37,287 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:17:37,299 - INFO - Histórico carregado com 165 produtos
+2025-12-08 20:17:37,304 - INFO - Histórico atualizado com 165 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:17:37,306 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:17:37,308 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 20:17:37,309 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 20:24:44,364 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:24:44.364913
+2025-12-08 20:24:44,365 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:24:44,365 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:24:44,375 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 20:24:44,380 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:24:44,380 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:24:44,382 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:24:44,383 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:24:44,399 - INFO - Histórico carregado com 165 produtos
+2025-12-08 20:24:44,407 - INFO - Histórico atualizado com 165 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:24:44,409 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:24:44,413 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 20:24:44,414 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 20:24:44,526 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\produtos_ifood.xlsx.
+2025-12-08 20:29:59,302 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:29:59.302571
+2025-12-08 20:29:59,303 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:29:59,303 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:29:59,331 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:29:59,333 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:29:59,345 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:29:59,348 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:36:55,859 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:36:55.859361
+2025-12-08 20:36:55,860 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:36:55,860 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:36:55,869 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 20:36:55,875 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:36:55,875 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:36:55,877 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:36:55,877 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:36:55,879 - INFO - Histórico carregado em formato dict e convertido para lista (165 registros).
+2025-12-08 20:36:55,884 - INFO - Histórico salvo com 207 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:36:55,884 - INFO - Histórico atualizado com 207 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:36:55,885 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:37:47,524 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:37:47.524395
+2025-12-08 20:37:47,525 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:37:47,525 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:37:47,539 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 20:37:47,543 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:37:47,544 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:37:47,545 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:37:47,546 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:37:47,562 - INFO - Histórico carregado com 207 registros.
+2025-12-08 20:37:47,568 - INFO - Histórico salvo com 249 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:37:47,568 - INFO - Histórico atualizado com 249 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:37:47,568 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:45:12,619 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:45:12.619606
+2025-12-08 20:45:12,620 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:45:12,620 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:45:12,630 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 20:45:12,635 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:45:12,635 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:45:12,637 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:45:12,637 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:45:12,651 - INFO - Histórico carregado com 249 registros.
+2025-12-08 20:45:12,657 - INFO - Histórico salvo com 291 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:45:12,658 - INFO - Histórico atualizado com 291 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:45:12,658 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:45:12,660 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 20:45:12,661 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 20:45:12,889 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\produtos_ifood.xlsx.
+2025-12-08 20:49:39,541 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:49:39.541383
+2025-12-08 20:49:39,542 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:49:39,542 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:49:39,551 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 20:49:39,556 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:49:39,556 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:49:39,559 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:49:39,559 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:49:39,572 - INFO - Histórico carregado com 291 registros.
+2025-12-08 20:49:39,577 - INFO - Histórico salvo com 333 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:49:39,578 - INFO - Histórico atualizado com 333 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:49:39,578 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:49:39,580 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 20:49:39,580 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 20:49:39,790 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\produtos_ifood.xlsx.
+2025-12-08 20:49:41,163 - INFO - Alerta enviado ao Telegram.
+2025-12-08 20:54:09,850 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 20:54:09.850934
+2025-12-08 20:54:09,850 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:54:09,852 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:54:09,860 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 20:54:09,866 - INFO - CSV carregado com 42 produtos.
+2025-12-08 20:54:09,867 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 20:54:09,868 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 20:54:09,869 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 20:54:09,879 - INFO - Histórico carregado com 333 registros.
+2025-12-08 20:54:09,887 - INFO - Histórico salvo com 375 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:54:09,888 - INFO - Histórico atualizado com 375 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 20:54:09,888 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 20:54:09,889 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 20:54:09,890 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 20:54:10,105 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\produtos_ifood.xlsx.
+2025-12-08 20:54:11,268 - INFO - Alerta enviado ao Telegram.
+2025-12-08 20:54:11,272 - INFO - Monitoramento concluído: {'total_produtos': 42, 'produtos_off': [{'secao': 'Descontinhos pra você ;)', 'nome': 'Cumbuca Mini Veggie', 'preco': 'R$ 18,90', 'descricao': 'Cumbuca vegetariana com legumes.', 'status': 'OFF'}, {'secao': 'Destaques', 'nome': 'Cumbuca Clássica Veggie', 'preco': 'R$ 27,90', 'descricao': 'Versão vegetariana da clássica.', 'status': 'OFF'}, {'secao': 'Mimo por R$2,99', 'nome': 'Mini Pudim', 'preco': 'R$ 2,99', 'descricao': 'Pudim individual.', 'status': 'OFF'}, {'secao': 'Novos Wraps - Novo tamanho e formato', 'nome': 'Wrap Carne Desfiada', 'preco': 'R$ 26,90', 'descricao': 'Wrap de carne com queijo.', 'status': 'OFF'}, {'secao': 'Para começar (Entradas)', 'nome': 'Dadinho de Tapioca', 'preco': 'R$ 22,90', 'descricao': 'Com geleia de pimenta.', 'status': 'OFF'}, {'secao': 'Promoções', 'nome': 'Cumbuca Surpresa', 'preco': 'R$ 22,90', 'descricao': 'Chef escolhe o sabor.', 'status': 'OFF'}, {'secao': '[Novidade] Personalize sua Cumbuca!', 'nome': 'Cumbuca Low Carb', 'preco': 'R$ 34,90', 'descricao': 'Base de legumes, sem arroz.', 'status': 'OFF'}, {'secao': 'Açaís', 'nome': 'Açaí Proteico', 'preco': 'R$ 24,90', 'descricao': 'Com whey de baunilha.', 'status': 'OFF'}, {'secao': 'Bebidas', 'nome': 'Suco de Laranja Natural', 'preco': 'R$ 9,90', 'descricao': 'Feito na hora.', 'status': 'OFF'}, {'secao': 'Não julgue minha cumbuca ;)', 'nome': 'Cumbuca Tudo Junto', 'preco': 'R$ 42,90', 'descricao': 'Mistura de todos os acompanhamentos.', 'status': 'OFF'}, {'secao': 'Sobremesas', 'nome': 'Mousse de Maracujá', 'preco': 'R$ 10,90', 'descricao': 'Mousse caseiro.', 'status': 'OFF'}, {'secao': 'Suchás', 'nome': 'Suchá Maçã com Canela', 'preco': 'R$ 12,90', 'descricao': 'Perfeito para dias frios.', 'status': 'OFF'}, {'secao': 'Tô veggie', 'nome': 'Cumbuca Veggie Gratinada', 'preco': 'R$ 29,90', 'descricao': 'Com queijo gratinado por cima.', 'status': 'OFF'}], 'produtos_desaparecidos': [], 'total_produtos_ativos': 29, 'timestamp': '2025-12-08 20:54:09'}
+2025-12-08 21:55:21,285 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 21:55:21.285243
+2025-12-08 21:55:21,286 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 21:55:21,287 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 21:55:21,297 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 21:55:21,302 - INFO - CSV carregado com 42 produtos.
+2025-12-08 21:55:21,304 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 21:55:21,305 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 21:55:21,306 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 21:55:21,317 - INFO - Histórico carregado com 375 registros.
+2025-12-08 21:55:21,325 - INFO - Histórico salvo com 417 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 21:55:21,326 - INFO - Histórico atualizado com 417 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 21:55:21,326 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 21:55:21,328 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 21:55:21,329 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 21:55:21,573 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\produtos_ifood.xlsx.
+2025-12-08 21:55:32,172 - ERROR - Erro ao chamar API do Telegram: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=10)
+Traceback (most recent call last):
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1382, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:989: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\src\telegram_client.py", line 132, in enviar_alerta_telegram
+    resp = requests.post(base_url, json=payload, timeout=10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zz\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=10)
+2025-12-08 21:55:32,289 - INFO - Monitoramento concluído: {'total_produtos': 42, 'produtos_off': [{'secao': 'Descontinhos pra você ;)', 'nome': 'Cumbuca Mini Veggie', 'preco': 'R$ 18,90', 'descricao': 'Cumbuca vegetariana com legumes.', 'status': 'OFF'}, {'secao': 'Destaques', 'nome': 'Cumbuca Clássica Veggie', 'preco': 'R$ 27,90', 'descricao': 'Versão vegetariana da clássica.', 'status': 'OFF'}, {'secao': 'Mimo por R$2,99', 'nome': 'Mini Pudim', 'preco': 'R$ 2,99', 'descricao': 'Pudim individual.', 'status': 'OFF'}, {'secao': 'Novos Wraps - Novo tamanho e formato', 'nome': 'Wrap Carne Desfiada', 'preco': 'R$ 26,90', 'descricao': 'Wrap de carne com queijo.', 'status': 'OFF'}, {'secao': 'Para começar (Entradas)', 'nome': 'Dadinho de Tapioca', 'preco': 'R$ 22,90', 'descricao': 'Com geleia de pimenta.', 'status': 'OFF'}, {'secao': 'Promoções', 'nome': 'Cumbuca Surpresa', 'preco': 'R$ 22,90', 'descricao': 'Chef escolhe o sabor.', 'status': 'OFF'}, {'secao': '[Novidade] Personalize sua Cumbuca!', 'nome': 'Cumbuca Low Carb', 'preco': 'R$ 34,90', 'descricao': 'Base de legumes, sem arroz.', 'status': 'OFF'}, {'secao': 'Açaís', 'nome': 'Açaí Proteico', 'preco': 'R$ 24,90', 'descricao': 'Com whey de baunilha.', 'status': 'OFF'}, {'secao': 'Bebidas', 'nome': 'Suco de Laranja Natural', 'preco': 'R$ 9,90', 'descricao': 'Feito na hora.', 'status': 'OFF'}, {'secao': 'Não julgue minha cumbuca ;)', 'nome': 'Cumbuca Tudo Junto', 'preco': 'R$ 42,90', 'descricao': 'Mistura de todos os acompanhamentos.', 'status': 'OFF'}, {'secao': 'Sobremesas', 'nome': 'Mousse de Maracujá', 'preco': 'R$ 10,90', 'descricao': 'Mousse caseiro.', 'status': 'OFF'}, {'secao': 'Suchás', 'nome': 'Suchá Maçã com Canela', 'preco': 'R$ 12,90', 'descricao': 'Perfeito para dias frios.', 'status': 'OFF'}, {'secao': 'Tô veggie', 'nome': 'Cumbuca Veggie Gratinada', 'preco': 'R$ 29,90', 'descricao': 'Com queijo gratinado por cima.', 'status': 'OFF'}], 'produtos_desaparecidos': [], 'total_produtos_ativos': 29, 'timestamp': '2025-12-08 21:55:21'}
+2025-12-08 21:59:50,054 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 21:59:50.054101
+2025-12-08 21:59:50,055 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 21:59:50,055 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 21:59:50,066 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 21:59:50,072 - INFO - CSV carregado com 42 produtos.
+2025-12-08 21:59:50,072 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 21:59:50,073 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 21:59:50,074 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 21:59:50,089 - INFO - Histórico carregado com 417 registros.
+2025-12-08 21:59:50,096 - INFO - Histórico salvo com 459 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 21:59:50,096 - INFO - Histórico atualizado com 459 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 21:59:50,096 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 21:59:50,098 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 21:59:50,099 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 21:59:50,310 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\produtos_ifood.xlsx.
+2025-12-08 21:59:51,598 - INFO - Alerta enviado ao Telegram (tentativa 1).
+2025-12-08 21:59:51,600 - INFO - Monitoramento concluído: {'total_produtos': 42, 'produtos_off': [{'secao': 'Descontinhos pra você ;)', 'nome': 'Cumbuca Mini Veggie', 'preco': 'R$ 18,90', 'descricao': 'Cumbuca vegetariana com legumes.', 'status': 'OFF'}, {'secao': 'Destaques', 'nome': 'Cumbuca Clássica Veggie', 'preco': 'R$ 27,90', 'descricao': 'Versão vegetariana da clássica.', 'status': 'OFF'}, {'secao': 'Mimo por R$2,99', 'nome': 'Mini Pudim', 'preco': 'R$ 2,99', 'descricao': 'Pudim individual.', 'status': 'OFF'}, {'secao': 'Novos Wraps - Novo tamanho e formato', 'nome': 'Wrap Carne Desfiada', 'preco': 'R$ 26,90', 'descricao': 'Wrap de carne com queijo.', 'status': 'OFF'}, {'secao': 'Para começar (Entradas)', 'nome': 'Dadinho de Tapioca', 'preco': 'R$ 22,90', 'descricao': 'Com geleia de pimenta.', 'status': 'OFF'}, {'secao': 'Promoções', 'nome': 'Cumbuca Surpresa', 'preco': 'R$ 22,90', 'descricao': 'Chef escolhe o sabor.', 'status': 'OFF'}, {'secao': '[Novidade] Personalize sua Cumbuca!', 'nome': 'Cumbuca Low Carb', 'preco': 'R$ 34,90', 'descricao': 'Base de legumes, sem arroz.', 'status': 'OFF'}, {'secao': 'Açaís', 'nome': 'Açaí Proteico', 'preco': 'R$ 24,90', 'descricao': 'Com whey de baunilha.', 'status': 'OFF'}, {'secao': 'Bebidas', 'nome': 'Suco de Laranja Natural', 'preco': 'R$ 9,90', 'descricao': 'Feito na hora.', 'status': 'OFF'}, {'secao': 'Não julgue minha cumbuca ;)', 'nome': 'Cumbuca Tudo Junto', 'preco': 'R$ 42,90', 'descricao': 'Mistura de todos os acompanhamentos.', 'status': 'OFF'}, {'secao': 'Sobremesas', 'nome': 'Mousse de Maracujá', 'preco': 'R$ 10,90', 'descricao': 'Mousse caseiro.', 'status': 'OFF'}, {'secao': 'Suchás', 'nome': 'Suchá Maçã com Canela', 'preco': 'R$ 12,90', 'descricao': 'Perfeito para dias frios.', 'status': 'OFF'}, {'secao': 'Tô veggie', 'nome': 'Cumbuca Veggie Gratinada', 'preco': 'R$ 29,90', 'descricao': 'Com queijo gratinado por cima.', 'status': 'OFF'}], 'produtos_desaparecidos': [], 'total_produtos_ativos': 29, 'timestamp': '2025-12-08 21:59:50'}
+2025-12-08 22:05:28,893 - INFO - Iniciando monitoramento (CSV) em 2025-12-08 22:05:28.893481
+2025-12-08 22:05:28,893 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 22:05:28,895 - WARNING - Configurações do GitHub incompletas. Não foi possível baixar C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 22:05:28,906 - INFO - Estado anterior carregado com 42 produtos
+2025-12-08 22:05:28,911 - INFO - CSV carregado com 42 produtos.
+2025-12-08 22:05:28,911 - INFO - Nenhum produto desapareceu em relação ao estado anterior.
+2025-12-08 22:05:28,912 - INFO - Estado atual salvo com 42 produtos em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json
+2025-12-08 22:05:28,913 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\estado_produtos.json.
+2025-12-08 22:05:28,923 - INFO - Histórico carregado com 459 registros.
+2025-12-08 22:05:28,932 - INFO - Histórico salvo com 501 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 22:05:28,932 - INFO - Histórico atualizado com 501 registros em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json
+2025-12-08 22:05:28,932 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\historico_status.json.
+2025-12-08 22:05:28,934 - INFO - Dashboard HTML gerado em C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html
+2025-12-08 22:05:28,934 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\index.html.
+2025-12-08 22:05:29,151 - WARNING - Configurações do GitHub incompletas. Não foi possível fazer upload de C:\Users\zz\OneDrive - Kalil Data Solutions\Portfólio\Cumbuca_IFood_T1-Sem Selenium\produtos_ifood.xlsx.
+2025-12-08 22:05:30,377 - INFO - Alerta enviado ao Telegram (tentativa 1).
+2025-12-08 22:05:30,379 - INFO - Monitoramento concluído: {'total_produtos': 42, 'produtos_off': [{'secao': 'Descontinhos pra você ;)', 'nome': 'Cumbuca Mini Veggie', 'preco': 'R$ 18,90', 'descricao': 'Cumbuca vegetariana com legumes.', 'status': 'OFF'}, {'secao': 'Destaques', 'nome': 'Cumbuca Clássica Veggie', 'preco': 'R$ 27,90', 'descricao': 'Versão vegetariana da clássica.', 'status': 'OFF'}, {'secao': 'Mimo por R$2,99', 'nome': 'Mini Pudim', 'preco': 'R$ 2,99', 'descricao': 'Pudim individual.', 'status': 'OFF'}, {'secao': 'Novos Wraps - Novo tamanho e formato', 'nome': 'Wrap Carne Desfiada', 'preco': 'R$ 26,90', 'descricao': 'Wrap de carne com queijo.', 'status': 'OFF'}, {'secao': 'Para começar (Entradas)', 'nome': 'Dadinho de Tapioca', 'preco': 'R$ 22,90', 'descricao': 'Com geleia de pimenta.', 'status': 'OFF'}, {'secao': 'Promoções', 'nome': 'Cumbuca Surpresa', 'preco': 'R$ 22,90', 'descricao': 'Chef escolhe o sabor.', 'status': 'OFF'}, {'secao': '[Novidade] Personalize sua Cumbuca!', 'nome': 'Cumbuca Low Carb', 'preco': 'R$ 34,90', 'descricao': 'Base de legumes, sem arroz.', 'status': 'OFF'}, {'secao': 'Açaís', 'nome': 'Açaí Proteico', 'preco': 'R$ 24,90', 'descricao': 'Com whey de baunilha.', 'status': 'OFF'}, {'secao': 'Bebidas', 'nome': 'Suco de Laranja Natural', 'preco': 'R$ 9,90', 'descricao': 'Feito na hora.', 'status': 'OFF'}, {'secao': 'Não julgue minha cumbuca ;)', 'nome': 'Cumbuca Tudo Junto', 'preco': 'R$ 42,90', 'descricao': 'Mistura de todos os acompanhamentos.', 'status': 'OFF'}, {'secao': 'Sobremesas', 'nome': 'Mousse de Maracujá', 'preco': 'R$ 10,90', 'descricao': 'Mousse caseiro.', 'status': 'OFF'}, {'secao': 'Suchás', 'nome': 'Suchá Maçã com Canela', 'preco': 'R$ 12,90', 'descricao': 'Perfeito para dias frios.', 'status': 'OFF'}, {'secao': 'Tô veggie', 'nome': 'Cumbuca Veggie Gratinada', 'preco': 'R$ 29,90', 'descricao': 'Com queijo gratinado por cima.', 'status': 'OFF'}], 'produtos_desaparecidos': [], 'total_produtos_ativos': 29, 'timestamp': '2025-12-08 22:05:28'}

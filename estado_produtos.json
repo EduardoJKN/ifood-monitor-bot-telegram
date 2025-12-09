@@ -1,0 +1,338 @@
+{
+  "Descontinhos pra você ;)|Cumbuca Mini Frango": {
+    "Seção": "Descontinhos pra você ;)",
+    "Produto": "Cumbuca Mini Frango",
+    "Preço": "R$ 19,90",
+    "Descrição": "Cumbuca de frango com arroz e feijão.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Descontinhos pra você ;)|Cumbuca Mini Carne": {
+    "Seção": "Descontinhos pra você ;)",
+    "Produto": "Cumbuca Mini Carne",
+    "Preço": "R$ 21,90",
+    "Descrição": "Cumbuca de carne com arroz e feijão.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Descontinhos pra você ;)|Cumbuca Mini Veggie": {
+    "Seção": "Descontinhos pra você ;)",
+    "Produto": "Cumbuca Mini Veggie",
+    "Preço": "R$ 18,90",
+    "Descrição": "Cumbuca vegetariana com legumes.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Destaques|Cumbuca Clássica Frango": {
+    "Seção": "Destaques",
+    "Produto": "Cumbuca Clássica Frango",
+    "Preço": "R$ 29,90",
+    "Descrição": "Prato mais vendido da casa.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Destaques|Cumbuca Clássica Carne": {
+    "Seção": "Destaques",
+    "Produto": "Cumbuca Clássica Carne",
+    "Preço": "R$ 31,90",
+    "Descrição": "Carne desfiada com molho especial.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Destaques|Cumbuca Clássica Veggie": {
+    "Seção": "Destaques",
+    "Produto": "Cumbuca Clássica Veggie",
+    "Preço": "R$ 27,90",
+    "Descrição": "Versão vegetariana da clássica.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Mimo por R$2,99|Mini Brownie": {
+    "Seção": "Mimo por R$2,99",
+    "Produto": "Mini Brownie",
+    "Preço": "R$ 2,99",
+    "Descrição": "Brownie de chocolate pequeno.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Mimo por R$2,99|Mini Cookie": {
+    "Seção": "Mimo por R$2,99",
+    "Produto": "Mini Cookie",
+    "Preço": "R$ 2,99",
+    "Descrição": "Cookie artesanal.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Mimo por R$2,99|Mini Pudim": {
+    "Seção": "Mimo por R$2,99",
+    "Produto": "Mini Pudim",
+    "Preço": "R$ 2,99",
+    "Descrição": "Pudim individual.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Novos Wraps - Novo tamanho e formato|Wrap Frango Grelhado": {
+    "Seção": "Novos Wraps - Novo tamanho e formato",
+    "Produto": "Wrap Frango Grelhado",
+    "Preço": "R$ 24,90",
+    "Descrição": "Wrap de frango com salada.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Novos Wraps - Novo tamanho e formato|Wrap Carne Desfiada": {
+    "Seção": "Novos Wraps - Novo tamanho e formato",
+    "Produto": "Wrap Carne Desfiada",
+    "Preço": "R$ 26,90",
+    "Descrição": "Wrap de carne com queijo.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Novos Wraps - Novo tamanho e formato|Wrap Veggie": {
+    "Seção": "Novos Wraps - Novo tamanho e formato",
+    "Produto": "Wrap Veggie",
+    "Preço": "R$ 23,90",
+    "Descrição": "Wrap de legumes grelhados.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Oferta do mês|Cumbuca Promo Família": {
+    "Seção": "Oferta do mês",
+    "Produto": "Cumbuca Promo Família",
+    "Preço": "R$ 89,90",
+    "Descrição": "Serve até 4 pessoas.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Oferta do mês|Cumbuca Duo": {
+    "Seção": "Oferta do mês",
+    "Produto": "Cumbuca Duo",
+    "Preço": "R$ 54,90",
+    "Descrição": "Combo para duas pessoas.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Para começar (Entradas)|Batata Rústica": {
+    "Seção": "Para começar (Entradas)",
+    "Produto": "Batata Rústica",
+    "Preço": "R$ 18,90",
+    "Descrição": "Batata assada com alecrim.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Para começar (Entradas)|Dadinho de Tapioca": {
+    "Seção": "Para começar (Entradas)",
+    "Produto": "Dadinho de Tapioca",
+    "Preço": "R$ 22,90",
+    "Descrição": "Com geleia de pimenta.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Para começar (Entradas)|Coxinha de Frango": {
+    "Seção": "Para começar (Entradas)",
+    "Produto": "Coxinha de Frango",
+    "Preço": "R$ 19,90",
+    "Descrição": "6 unidades.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Promoções|Cumbuca do Dia": {
+    "Seção": "Promoções",
+    "Produto": "Cumbuca do Dia",
+    "Preço": "R$ 24,90",
+    "Descrição": "Prato do dia com preço especial.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Promoções|Cumbuca Surpresa": {
+    "Seção": "Promoções",
+    "Produto": "Cumbuca Surpresa",
+    "Preço": "R$ 22,90",
+    "Descrição": "Chef escolhe o sabor.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Wrap Combos|Combo Wrap + Refri Lata": {
+    "Seção": "Wrap Combos",
+    "Produto": "Combo Wrap + Refri Lata",
+    "Preço": "R$ 29,90",
+    "Descrição": "Qualquer wrap + refrigerante.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Wrap Combos|Combo Wrap + Suco": {
+    "Seção": "Wrap Combos",
+    "Produto": "Combo Wrap + Suco",
+    "Preço": "R$ 32,90",
+    "Descrição": "Qualquer wrap + suco natural.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "[Novidade] Personalize sua Cumbuca!|Monte sua Cumbuca": {
+    "Seção": "[Novidade] Personalize sua Cumbuca!",
+    "Produto": "Monte sua Cumbuca",
+    "Preço": "R$ 32,90",
+    "Descrição": "Escolha proteínas e acompanhamentos.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "[Novidade] Personalize sua Cumbuca!|Cumbuca Low Carb": {
+    "Seção": "[Novidade] Personalize sua Cumbuca!",
+    "Produto": "Cumbuca Low Carb",
+    "Preço": "R$ 34,90",
+    "Descrição": "Base de legumes, sem arroz.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Açaís|Açaí 300ml": {
+    "Seção": "Açaís",
+    "Produto": "Açaí 300ml",
+    "Preço": "R$ 17,90",
+    "Descrição": "Com granola e banana.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Açaís|Açaí 500ml": {
+    "Seção": "Açaís",
+    "Produto": "Açaí 500ml",
+    "Preço": "R$ 21,90",
+    "Descrição": "Porção grande com acompanhamentos.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Açaís|Açaí Proteico": {
+    "Seção": "Açaís",
+    "Produto": "Açaí Proteico",
+    "Preço": "R$ 24,90",
+    "Descrição": "Com whey de baunilha.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Bebidas|Refrigerante Lata 350ml": {
+    "Seção": "Bebidas",
+    "Produto": "Refrigerante Lata 350ml",
+    "Preço": "R$ 6,00",
+    "Descrição": "Sabores variados.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Bebidas|Água Mineral sem Gás": {
+    "Seção": "Bebidas",
+    "Produto": "Água Mineral sem Gás",
+    "Preço": "R$ 4,00",
+    "Descrição": "Garrafa 500ml.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Bebidas|Suco de Laranja Natural": {
+    "Seção": "Bebidas",
+    "Produto": "Suco de Laranja Natural",
+    "Preço": "R$ 9,90",
+    "Descrição": "Feito na hora.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Não julgue minha cumbuca ;)|Cumbuca Super Proteína": {
+    "Seção": "Não julgue minha cumbuca ;)",
+    "Produto": "Cumbuca Super Proteína",
+    "Preço": "R$ 39,90",
+    "Descrição": "3 tipos de proteína.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Não julgue minha cumbuca ;)|Cumbuca Tudo Junto": {
+    "Seção": "Não julgue minha cumbuca ;)",
+    "Produto": "Cumbuca Tudo Junto",
+    "Preço": "R$ 42,90",
+    "Descrição": "Mistura de todos os acompanhamentos.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Força, foco e fé|Cumbuca Fit Frango": {
+    "Seção": "Força, foco e fé",
+    "Produto": "Cumbuca Fit Frango",
+    "Preço": "R$ 32,90",
+    "Descrição": "Arroz integral e legumes.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Força, foco e fé|Cumbuca Fit Carne": {
+    "Seção": "Força, foco e fé",
+    "Produto": "Cumbuca Fit Carne",
+    "Preço": "R$ 34,90",
+    "Descrição": "Carne magra com salada.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Sobremesas|Pudim de Leite": {
+    "Seção": "Sobremesas",
+    "Produto": "Pudim de Leite",
+    "Preço": "R$ 11,90",
+    "Descrição": "Clássico pudim brasileiro.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Sobremesas|Brownie com Sorvete": {
+    "Seção": "Sobremesas",
+    "Produto": "Brownie com Sorvete",
+    "Preço": "R$ 14,90",
+    "Descrição": "Brownie quente com sorvete.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Sobremesas|Mousse de Maracujá": {
+    "Seção": "Sobremesas",
+    "Produto": "Mousse de Maracujá",
+    "Preço": "R$ 10,90",
+    "Descrição": "Mousse caseiro.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Suchás|Suchá Hibisco com Limão": {
+    "Seção": "Suchás",
+    "Produto": "Suchá Hibisco com Limão",
+    "Preço": "R$ 12,90",
+    "Descrição": "Bebida leve e refrescante.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Suchás|Suchá Maçã com Canela": {
+    "Seção": "Suchás",
+    "Produto": "Suchá Maçã com Canela",
+    "Preço": "R$ 12,90",
+    "Descrição": "Perfeito para dias frios.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Tô diferente|Cumbuca Vegana": {
+    "Seção": "Tô diferente",
+    "Produto": "Cumbuca Vegana",
+    "Preço": "R$ 29,90",
+    "Descrição": "Proteína de soja, legumes e arroz.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Tô diferente|Cumbuca sem Glúten": {
+    "Seção": "Tô diferente",
+    "Produto": "Cumbuca sem Glúten",
+    "Preço": "R$ 31,90",
+    "Descrição": "Sem glúten e sem lactose.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Tô veggie|Cumbuca Veggie Clássica": {
+    "Seção": "Tô veggie",
+    "Produto": "Cumbuca Veggie Clássica",
+    "Preço": "R$ 27,90",
+    "Descrição": "Legumes, grão-de-bico e arroz.",
+    "Status": "ON",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  },
+  "Tô veggie|Cumbuca Veggie Gratinada": {
+    "Seção": "Tô veggie",
+    "Produto": "Cumbuca Veggie Gratinada",
+    "Preço": "R$ 29,90",
+    "Descrição": "Com queijo gratinado por cima.",
+    "Status": "OFF",
+    "Última verificação": "2025-12-08 22:05:28.911530"
+  }
+}
