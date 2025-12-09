@@ -1,345 +1,334 @@
 from __future__ import annotations
 
 import logging
+from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Union
+from typing import Any, Iterable
 
 from .config import AppConfig
 from .github_integration import fazer_upload_github
 from .utils import horario_brasil
 
 
-def gerar_dashboard_html(
-    historico: Union[Dict[str, dict], List[dict]],
-    cfg: AppConfig,
-) -> str:
+def _norm_status(value: Any) -> str:
+    """Normaliza o status para comparação (string maiúscula)."""
+    return str(value or "").strip().upper()
+
+
+def gerar_dashboard_html(historico: Iterable[dict], cfg: AppConfig) -> str:
     """
-    Gera um dashboard HTML estático com resumo do histórico de produtos.
-
-    Parâmetros
-    ----------
-    historico
-        Pode ser:
-        - um dicionário no formato antigo: { "Seção|Produto": { ...campos... } }
-        - uma lista de registros (formato novo), cada um com:
-          secao, nome, preco, descricao, status_anterior, status_atual, timestamp, desapareceu
-    cfg : AppConfig
-        Configurações da aplicação, incluindo local de saída do HTML.
-
-    Retorna
-    -------
-    str
-        Caminho do arquivo HTML gerado.
+    Gera o dashboard HTML a partir do histórico (lista de dicts) e,
+    se configurado, faz upload para o GitHub.
     """
 
-    # 🔁 Compatibilidade: normaliza para dict {"secao|nome": registro}
-    hist_dict: Dict[str, dict] = {}
+    # Garante que temos uma lista
+    historico = list(historico or [])
 
-    if isinstance(historico, dict):
-        # Formato antigo já vinha como dict
-        hist_dict = {k: v for k, v in historico.items()}
-    elif isinstance(historico, list):
-        # Formato novo: lista de registros
-        for reg in historico:
-            chave = f"{reg.get('secao', '')}|{reg.get('nome', '')}"
-            hist_dict[chave] = reg
-    else:
-        logging.warning(
-            "Formato inesperado de historico (%s); usando dict vazio.",
-            type(historico),
-        )
-
-    historico = hist_dict
-
-
-    # 1) Descobrir caminho de saída
-    if getattr(cfg, "dashboard_output", None):
+    # Caminho do arquivo HTML de saída
+    if hasattr(cfg, "dashboard_output"):
         arquivo_dashboard = Path(cfg.dashboard_output)
     else:
         base_dir = Path(__file__).resolve().parent.parent
         arquivo_dashboard = base_dir / "index.html"
 
-    # 2) Preparar dados de resumo
-
-    total_registros = len(historico)
-    total_on = 0
-    total_off = 0
-    total_desaparecidos = 0
-
-    produtos_por_secao: Dict[str, dict] = {}
-    ultima_atualizacao = None
-
-    for _chave, info in historico.items():
-        secao = info.get("secao", "Sem seção") or "Sem seção"
-        status_atual = str(info.get("status_atual", "DESCONHECIDO"))
-
-        if secao not in produtos_por_secao:
-            produtos_por_secao[secao] = {
-                "total": 0,
-                "on": 0,
-                "off": 0,
-                "desapareceu": 0,
-            }
-
-        produtos_por_secao[secao]["total"] += 1
-
-        if status_atual.upper().startswith("ON"):
-            total_on += 1
-            produtos_por_secao[secao]["on"] += 1
-        else:
-            total_off += 1
-            produtos_por_secao[secao]["off"] += 1
-
-        if info.get("desapareceu", False):
-            total_desaparecidos += 1
-            produtos_por_secao[secao]["desapareceu"] += 1
-
-        ts = info.get("timestamp")
-        if ts:
-            # Mantemos como string mesmo, só pra exibição
-            ultima_atualizacao = ts
-
-    if ultima_atualizacao is None:
+    if not historico:
         ultima_atualizacao = str(horario_brasil())
+        total_registros = total_on = total_off = total_desapareceram = 0
+        on_por_secao: dict[str, int] = {}
+        off_por_secao: dict[str, int] = {}
+        desapareceu_por_secao: dict[str, int] = {}
+    else:
+        # -----------------------------
+        # Agregações
+        # -----------------------------
+        total_registros = len(historico)
 
-    # 3) Montar HTML
+        # Última execução (maior timestamp)
+        try:
+            ultimo_ts = max(str(r.get("timestamp", "")) for r in historico)
+        except ValueError:
+            ultimo_ts = ""
 
+        ultima_atualizacao = ultimo_ts or str(horario_brasil())
+
+        # Registros da última execução, apenas tipo "ATUAL"
+        registros_ultimo = [
+            r
+            for r in historico
+            if str(r.get("timestamp", "")) == ultimo_ts
+            and _norm_status(r.get("tipo")) == "ATUAL"
+        ]
+
+        # Se por algum motivo não achar, cai pro histórico todo
+        if not registros_ultimo:
+            registros_ultimo = [
+                r for r in historico if _norm_status(r.get("tipo")) == "ATUAL"
+            ]
+
+        total_on = 0
+        total_off = 0
+
+        on_por_secao: dict[str, int] = defaultdict(int)
+        off_por_secao: dict[str, int] = defaultdict(int)
+
+        # Agregação por seção na última execução
+        for r in registros_ultimo:
+            secao = r.get("secao") or r.get("Seção") or "Desconhecida"
+
+            status = (
+                _norm_status(r.get("status"))
+                or _norm_status(r.get("Status"))
+            )
+
+            if status == "ON":
+                total_on += 1
+                on_por_secao[secao] += 1
+            else:
+                total_off += 1
+                off_por_secao[secao] += 1
+
+        # Produtos que já desapareceram alguma vez (qualquer execução)
+        desaparecidos_uma_vez: set[tuple[str, str]] = set()
+        for r in historico:
+            tipo = _norm_status(r.get("tipo"))
+            if "DESAPARECIDO" in tipo or "DESAPARECEU" in tipo:
+                secao = r.get("secao") or r.get("Seção") or ""
+                nome = r.get("nome") or r.get("Produto") or ""
+                desaparecidos_uma_vez.add((secao, nome))
+
+        total_desapareceram = len(desaparecidos_uma_vez)
+
+        desapareceu_por_secao: dict[str, int] = defaultdict(int)
+        for secao, _ in desaparecidos_uma_vez:
+            if secao:
+                desapareceu_por_secao[secao] += 1
+
+    # -----------------------------
+    # Monta tabela de "Resumo por seção"
+    # -----------------------------
+    secoes = sorted(
+        set(on_por_secao.keys())
+        | set(off_por_secao.keys())
+        | set(desapareceu_por_secao.keys())
+    )
+
+    linhas_tabela = ""
+    for secao in secoes:
+        total_secao = on_por_secao.get(secao, 0) + off_por_secao.get(secao, 0)
+        linhas_tabela += f"""
+            <tr>
+                <td>{secao}</td>
+                <td>{total_secao}</td>
+                <td>{on_por_secao.get(secao, 0)}</td>
+                <td>{off_por_secao.get(secao, 0)}</td>
+                <td>{desapareceu_por_secao.get(secao, 0)}</td>
+            </tr>
+        """
+
+    # -----------------------------
+    # HTML (layout dark bonitinho)
+    # -----------------------------
     html = f"""<!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8" />
     <title>Monitoramento de Produtos iFood - Demo</title>
     <style>
-{_estilo_css()}
+        :root {{
+            --bg: #050816;
+            --bg-card: #0b1020;
+            --bg-card-alt: #111827;
+            --accent: #22c55e;
+            --accent-red: #ef4444;
+            --accent-yellow: #eab308;
+            --text-main: #f9fafb;
+            --text-muted: #9ca3af;
+            --border-subtle: #1f2937;
+        }}
+
+        * {{
+            box-sizing: border-box;
+        }}
+
+        body {{
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: radial-gradient(circle at top, #111827 0, #020617 40%, #000 80%);
+            color: var(--text-main);
+        }}
+
+        .page {{
+            max-width: 1200px;
+            margin: 32px auto;
+            padding: 0 16px 32px;
+        }}
+
+        h1 {{
+            font-size: 28px;
+            margin: 0 0 4px;
+        }}
+
+        .subtitle {{
+            font-size: 14px;
+            color: var(--text-muted);
+        }}
+
+        .cards {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }}
+
+        .card {{
+            background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-alt) 100%);
+            border-radius: 14px;
+            padding: 16px 18px;
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 18px 35px rgba(15,23,42,0.7);
+        }}
+
+        .card-label {{
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }}
+
+        .card-value {{
+            font-size: 26px;
+            font-weight: 600;
+        }}
+
+        .card-value.on {{
+            color: var(--accent);
+        }}
+
+        .card-value.off {{
+            color: var(--accent-red);
+        }}
+
+        .card-value.warn {{
+            color: var(--accent-yellow);
+        }}
+
+        .table-wrapper {{
+            margin-top: 24px;
+            background: rgba(15,23,42,0.9);
+            border-radius: 14px;
+            border: 1px solid var(--border-subtle);
+            overflow: hidden;
+        }}
+
+        table {{
+            width: 100%;
+            border-collapse: collapse;
+        }}
+
+        thead {{
+            background: rgba(15,23,42,0.95);
+        }}
+
+        th, td {{
+            padding: 10px 14px;
+            text-align: left;
+            font-size: 13px;
+        }}
+
+        th {{
+            font-weight: 500;
+            color: var(--text-muted);
+            border-bottom: 1px solid #1f2937;
+        }}
+
+        tbody tr:nth-child(even) {{
+            background: rgba(15,23,42,0.85);
+        }}
+
+        tbody tr:nth-child(odd) {{
+            background: rgba(15,23,42,0.7);
+        }}
+
+        tbody td:nth-child(3) {{
+            color: var(--accent);
+        }}
+
+        tbody td:nth-child(4) {{
+            color: var(--accent-red);
+        }}
+
+        .footer {{
+            margin-top: 16px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }}
     </style>
 </head>
 <body>
-    <header>
-        <h1>Monitoramento de Produtos iFood - Demo</h1>
-        <p>Última atualização: {ultima_atualizacao}</p>
-    </header>
+    <div class="page">
+        <header>
+            <h1>Monitoramento de Produtos iFood - Demo</h1>
+            <div class="subtitle">
+                Última atualização: {ultima_atualizacao}
+            </div>
+        </header>
 
-    <section class="cards-resumo">
-        <div class="card total">
-            <h2>Total de registros no histórico</h2>
-            <p class="valor">{total_registros}</p>
+        <section class="cards">
+            <div class="card">
+                <div class="card-label">Total de registros no histórico</div>
+                <div class="card-value warn">{total_registros}</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Produtos ON (última execução)</div>
+                <div class="card-value on">{total_on}</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Produtos OFF (última execução)</div>
+                <div class="card-value off">{total_off}</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Produtos que já desapareceram alguma vez</div>
+                <div class="card-value warn">{total_desapareceram}</div>
+            </div>
+        </section>
+
+        <section class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Seção</th>
+                        <th>Total de registros (última execução)</th>
+                        <th>ON</th>
+                        <th>OFF</th>
+                        <th>Desapareceu alguma vez</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {linhas_tabela}
+                </tbody>
+            </table>
+        </section>
+
+        <div class="footer">
+            Dashboard gerado automaticamente pelo script
+            <code>python -m src.monitor --modo monitorar</code>.
         </div>
-        <div class="card on">
-            <h2>Produtos ON</h2>
-            <p class="valor">{total_on}</p>
-        </div>
-        <div class="card off">
-            <h2>Produtos OFF</h2>
-            <p class="valor">{total_off}</p>
-        </div>
-        <div class="card desaparecidos">
-            <h2>Produtos que já desapareceram alguma vez</h2>
-            <p class="valor">{total_desaparecidos}</p>
-        </div>
-    </section>
-
-    <section class="secao-tabela">
-        <h2>Resumo por seção</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Seção</th>
-                    <th>Total de registros</th>
-                    <th>ON</th>
-                    <th>OFF</th>
-                    <th>Desapareceu alguma vez</th>
-                </tr>
-            </thead>
-            <tbody>
-"""
-
-    # Linhas da tabela por seção
-    for secao, info_secao in sorted(produtos_por_secao.items(), key=lambda x: x[0]):
-        html += f"""                <tr>
-                    <td>{secao}</td>
-                    <td>{info_secao['total']}</td>
-                    <td>{info_secao['on']}</td>
-                    <td>{info_secao['off']}</td>
-                    <td>{info_secao['desapareceu']}</td>
-                </tr>
-"""
-
-    html += """            </tbody>
-        </table>
-    </section>
-
-    <footer>
-        <p>Gerado automaticamente pelo monitor de produtos iFood (demo em CSV).</p>
-    </footer>
+    </div>
 </body>
 </html>
 """
 
-    
-    # 4) Salvar
-    arquivo_dashboard.parent.mkdir(parents=True, exist_ok=True)
-    arquivo_dashboard.write_text(html, encoding="utf-8")
+    try:
+        arquivo_dashboard.parent.mkdir(parents=True, exist_ok=True)
+        with arquivo_dashboard.open("w", encoding="utf-8") as f:
+            f.write(html)
 
-    logging.info("Dashboard HTML gerado em %s", arquivo_dashboard)
+        logging.info("Dashboard HTML gerado em %s", arquivo_dashboard)
 
-    # Upload opcional – se as configs de GitHub estiverem ok,
-    # essa função só loga warning se não estiverem.
-    fazer_upload_github(cfg.github, str(arquivo_dashboard), arquivo_dashboard.name)
+        # Upload para GitHub (se configurado)
+        fazer_upload_github(cfg.github, str(arquivo_dashboard), arquivo_dashboard.name)
+
+    except Exception as e:
+        logging.exception("Erro ao gerar dashboard HTML: %s", e)
 
     return str(arquivo_dashboard)
-
-    import webbrowser
-
-    # depois de salvar o arquivo e antes do return:
-    webbrowser.open(arquivo_dashboard.as_uri())
-
-
-
-def _estilo_css() -> str:
-    """CSS básico para o dashboard HTML."""
-    return """
-    :root {
-        --bg: #0f172a;
-        --bg-card: #111827;
-        --border: #1f2937;
-        --text: #e5e7eb;
-        --muted: #9ca3af;
-        --on: #22c55e;
-        --off: #ef4444;
-        --warn: #f97316;
-        --accent: #38bdf8;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        margin: 0;
-        padding: 24px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        background: radial-gradient(circle at top, #1f2937 0, #020617 55%, #000 100%);
-        color: var(--text);
-    }
-
-    header {
-        margin-bottom: 24px;
-    }
-
-    header h1 {
-        margin: 0 0 4px 0;
-        font-size: 24px;
-        font-weight: 600;
-    }
-
-    header p {
-        margin: 0;
-        color: var(--muted);
-        font-size: 14px;
-    }
-
-    .cards-resumo {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 16px;
-        margin-bottom: 32px;
-    }
-
-    .card {
-        padding: 16px 18px;
-        border-radius: 16px;
-        background: linear-gradient(145deg, #020617, #020617);
-        border: 1px solid var(--border);
-        box-shadow: 0 18px 50px rgba(0,0,0,0.6);
-    }
-
-    .card h2 {
-        margin: 0 0 8px 0;
-        font-size: 14px;
-        font-weight: 500;
-        color: var(--muted);
-    }
-
-    .card .valor {
-        margin: 0;
-        font-size: 26px;
-        font-weight: 600;
-    }
-
-    .card.on .valor {
-        color: var(--on);
-    }
-
-    .card.off .valor {
-        color: var(--off);
-    }
-
-    .card.desaparecidos .valor {
-        color: var(--warn);
-    }
-
-    .secao-tabela h2 {
-        margin: 0 0 12px 0;
-        font-size: 18px;
-        font-weight: 600;
-    }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        border-radius: 16px;
-        overflow: hidden;
-        background-color: rgba(15,23,42,0.8);
-        border: 1px solid var(--border);
-    }
-
-    thead {
-        background: linear-gradient(90deg, rgba(56,189,248,0.16), rgba(56,189,248,0.02));
-    }
-
-    th, td {
-        padding: 10px 12px;
-        font-size: 14px;
-        text-align: left;
-    }
-
-    th {
-        font-weight: 500;
-        color: var(--muted);
-        border-bottom: 1px solid var(--border);
-    }
-
-    tbody tr:nth-child(odd) {
-        background-color: rgba(15,23,42,0.9);
-    }
-
-    tbody tr:nth-child(even) {
-        background-color: rgba(17,24,39,0.9);
-    }
-
-    tbody tr:hover {
-        background: radial-gradient(circle at left, rgba(56,189,248,0.18), transparent);
-    }
-
-    footer {
-        margin-top: 24px;
-        font-size: 12px;
-        color: var(--muted);
-    }
-
-    @media (max-width: 900px) {
-        .cards-resumo {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-    }
-
-    @media (max-width: 600px) {
-        .cards-resumo {
-            grid-template-columns: 1fr;
-        }
-
-        body {
-            padding: 16px;
-        }
-    }
-    """
