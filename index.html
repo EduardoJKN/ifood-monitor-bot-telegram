@@ -1,425 +1,415 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <title>Monitoramento de Produtos iFood - Demo</title>
-    <style>
-
-    :root {
-        --bg: #0f172a;
-        --bg-card: #111827;
-        --border: #1f2937;
-        --text: #e5e7eb;
-        --muted: #9ca3af;
-        --on: #22c55e;
-        --off: #ef4444;
-        --warn: #f97316;
-        --accent: #38bdf8;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
+  <meta charset="UTF-8" />
+  <title>Monitoramento de Produtos iFood</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
     body {
-        margin: 0;
-        padding: 24px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        background: radial-gradient(circle at top, #1f2937 0, #020617 55%, #000 100%);
-        color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #0b0c10;
+      color: #f5f5f5;
     }
-
-    header {
-        margin-bottom: 24px;
+    h1 {
+      margin-top: 0;
     }
-
-    header h1 {
-        margin: 0 0 4px 0;
-        font-size: 24px;
-        font-weight: 600;
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
     }
-
-    header p {
-        margin: 0;
-        color: var(--muted);
-        font-size: 14px;
-    }
-
-    .cards-resumo {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 16px;
-        margin-bottom: 32px;
-    }
-
     .card {
-        padding: 16px 18px;
-        border-radius: 16px;
-        background: linear-gradient(145deg, #020617, #020617);
-        border: 1px solid var(--border);
-        box-shadow: 0 18px 50px rgba(0,0,0,0.6);
+      background: #141622;
+      border-radius: 12px;
+      padding: 16px 20px;
+      min-width: 220px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
     }
-
-    .card h2 {
-        margin: 0 0 8px 0;
-        font-size: 14px;
-        font-weight: 500;
-        color: var(--muted);
+    .card-label {
+      font-size: 0.85rem;
+      opacity: 0.8;
+      margin-bottom: 4px;
     }
-
-    .card .valor {
-        margin: 0;
-        font-size: 26px;
-        font-weight: 600;
+    .card-value {
+      font-size: 1.6rem;
+      font-weight: 600;
     }
-
-    .card.on .valor {
-        color: var(--on);
+    .card.on .card-value {
+      color: #4ade80;
     }
-
-    .card.off .valor {
-        color: var(--off);
+    .card.off .card-value {
+      color: #f97373;
     }
-
-    .card.desaparecidos .valor {
-        color: var(--warn);
-    }
-
-    .secao-tabela h2 {
-        margin: 0 0 12px 0;
-        font-size: 18px;
-        font-weight: 600;
-    }
-
     table {
-        width: 100%;
-        border-collapse: collapse;
-        border-radius: 16px;
-        overflow: hidden;
-        background-color: rgba(15,23,42,0.8);
-        border: 1px solid var(--border);
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 8px;
     }
-
-    thead {
-        background: linear-gradient(90deg, rgba(56,189,248,0.16), rgba(56,189,248,0.02));
-    }
-
     th, td {
-        padding: 10px 12px;
-        font-size: 14px;
-        text-align: left;
+      border-bottom: 1px solid #27293a;
+      padding: 8px 10px;
+      text-align: left;
+      font-size: 0.9rem;
     }
-
     th {
-        font-weight: 500;
-        color: var(--muted);
-        border-bottom: 1px solid var(--border);
+      background: #111322;
+      position: sticky;
+      top: 0;
+      z-index: 1;
     }
-
-    tbody tr:nth-child(odd) {
-        background-color: rgba(15,23,42,0.9);
+    tr:nth-child(even) td {
+      background: #10121b;
     }
-
-    tbody tr:nth-child(even) {
-        background-color: rgba(17,24,39,0.9);
+    .status-on {
+      color: #22c55e;
+      font-weight: 600;
     }
-
-    tbody tr:hover {
-        background: radial-gradient(circle at left, rgba(56,189,248,0.18), transparent);
+    .status-off {
+      color: #f97373;
+      font-weight: 600;
     }
-
-    footer {
-        margin-top: 24px;
-        font-size: 12px;
-        color: var(--muted);
+    .secao-header {
+      margin-top: 24px;
+      font-weight: 600;
     }
-
-    @media (max-width: 900px) {
-        .cards-resumo {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
+    .timestamp-info {
+      margin-bottom: 16px;
+      font-size: 0.9rem;
+      opacity: 0.8;
     }
-
-    @media (max-width: 600px) {
-        .cards-resumo {
-            grid-template-columns: 1fr;
-        }
-
-        body {
-            padding: 16px;
-        }
-    }
-    
-    </style>
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Monitoramento de Produtos iFood - Demo</h1>
-        <p>Última atualização: 2025-12-08 22:05:28.923556</p>
-    </header>
+  <h1>🚀 Monitoramento de Produtos iFood</h1>
+  <div class="timestamp-info">
+    Última execução: <strong>2025-12-09 22:53:56.094083</strong>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-label">Total de produtos monitorados</div>
+      <div class="card-value">42</div>
+    </div>
+    <div class="card card on">
+      <div class="card-label">Produtos ON</div>
+      <div class="card-value">29</div>
+    </div>
+    <div class="card card off">
+      <div class="card-label">Produtos OFF</div>
+      <div class="card-value">13</div>
+    </div>
+  </div>
 
-    <section class="cards-resumo">
-        <div class="card total">
-            <h2>Total de registros no histórico</h2>
-            <p class="valor">165</p>
-        </div>
-        <div class="card on">
-            <h2>Produtos ON</h2>
-            <p class="valor">0</p>
-        </div>
-        <div class="card off">
-            <h2>Produtos OFF</h2>
-            <p class="valor">165</p>
-        </div>
-        <div class="card desaparecidos">
-            <h2>Produtos que já desapareceram alguma vez</h2>
-            <p class="valor">0</p>
-        </div>
-    </section>
+  <h2>Detalhamento da última execução</h2>
 
-    <section class="secao-tabela">
-        <h2>Resumo por seção</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Seção</th>
-                    <th>Total de registros</th>
-                    <th>ON</th>
-                    <th>OFF</th>
-                    <th>Desapareceu alguma vez</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Açaís</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Bebidas</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Complementos</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Descontinhos pra você ;)</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Destaques</td>
-                    <td>9</td>
-                    <td>0</td>
-                    <td>9</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Força, foco e fé</td>
-                    <td>10</td>
-                    <td>0</td>
-                    <td>10</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Mimo por R$2,99</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Novos Wraps - Novo formato e tamanho</td>
-                    <td>10</td>
-                    <td>0</td>
-                    <td>10</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Novos Wraps - Novo tamanho e formato</td>
-                    <td>13</td>
-                    <td>0</td>
-                    <td>13</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Não julgue minha cumbuca ;)</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Oferta do mês</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Para começar (Entradas)</td>
-                    <td>10</td>
-                    <td>0</td>
-                    <td>10</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Poke Face | Promoção da Lady!</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Promoções</td>
-                    <td>10</td>
-                    <td>0</td>
-                    <td>10</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Promoções: Leva pra mais tarde</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Santas Promoções (só até 23/04)</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Sobremesas</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Suchás</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Tô diferente</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Tô veggie</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Wrap Combos</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Wrap Naighty!</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>[Novidade] Personalize sua Cumbuca!</td>
-                    <td>6</td>
-                    <td>0</td>
-                    <td>6</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Açaís •</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Bebidas •</td>
-                    <td>13</td>
-                    <td>0</td>
-                    <td>13</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Destaque •</td>
-                    <td>5</td>
-                    <td>0</td>
-                    <td>5</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Força, foco e fé •</td>
-                    <td>8</td>
-                    <td>0</td>
-                    <td>8</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Não julgue minha cumbuca •</td>
-                    <td>9</td>
-                    <td>0</td>
-                    <td>9</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Sobremesas •</td>
-                    <td>5</td>
-                    <td>0</td>
-                    <td>5</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Suchás •</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Tô diferente •</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>• Tô veggie •</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <footer>
-        <p>Gerado automaticamente pelo monitor de produtos iFood (demo em CSV).</p>
-    </footer>
+  <table>
+    <thead>
+      <tr>
+        <th>Seção</th>
+        <th>Produto</th>
+        <th>Preço</th>
+        <th>Status</th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Açaís</td>
+        <td>Açaí 300ml</td>
+        <td>R$ 17,90</td>
+        <td class="status-on">ON</td>
+        <td>Com granola e banana.</td>
+      </tr>
+      <tr>
+        <td>Açaís</td>
+        <td>Açaí 500ml</td>
+        <td>R$ 21,90</td>
+        <td class="status-on">ON</td>
+        <td>Porção grande com acompanhamentos.</td>
+      </tr>
+      <tr>
+        <td>Açaís</td>
+        <td>Açaí Proteico</td>
+        <td>R$ 24,90</td>
+        <td class="status-off">OFF</td>
+        <td>Com whey de baunilha.</td>
+      </tr>
+      <tr>
+        <td>Bebidas</td>
+        <td>Refrigerante Lata 350ml</td>
+        <td>R$ 6,00</td>
+        <td class="status-on">ON</td>
+        <td>Sabores variados.</td>
+      </tr>
+      <tr>
+        <td>Bebidas</td>
+        <td>Suco de Laranja Natural</td>
+        <td>R$ 9,90</td>
+        <td class="status-off">OFF</td>
+        <td>Feito na hora.</td>
+      </tr>
+      <tr>
+        <td>Bebidas</td>
+        <td>Água Mineral sem Gás</td>
+        <td>R$ 4,00</td>
+        <td class="status-on">ON</td>
+        <td>Garrafa 500ml.</td>
+      </tr>
+      <tr>
+        <td>Descontinhos pra você ;)</td>
+        <td> Mini Carne</td>
+        <td>R$ 21,90</td>
+        <td class="status-on">ON</td>
+        <td>Carne com arroz e feijão.</td>
+      </tr>
+      <tr>
+        <td>Descontinhos pra você ;)</td>
+        <td> Mini Frango</td>
+        <td>R$ 19,90</td>
+        <td class="status-on">ON</td>
+        <td>Frango com arroz e feijão.</td>
+      </tr>
+      <tr>
+        <td>Descontinhos pra você ;)</td>
+        <td> Mini Veggie</td>
+        <td>R$ 18,90</td>
+        <td class="status-off">OFF</td>
+        <td>Vegetariana com legumes.</td>
+      </tr>
+      <tr>
+        <td>Destaques</td>
+        <td>Clássica Carne</td>
+        <td>R$ 31,90</td>
+        <td class="status-on">ON</td>
+        <td>Carne desfiada com molho especial.</td>
+      </tr>
+      <tr>
+        <td>Destaques</td>
+        <td>Clássica Frango</td>
+        <td>R$ 29,90</td>
+        <td class="status-on">ON</td>
+        <td>Prato mais vendido da casa.</td>
+      </tr>
+      <tr>
+        <td>Destaques</td>
+        <td>Clássica Veggie</td>
+        <td>R$ 27,90</td>
+        <td class="status-off">OFF</td>
+        <td>Versão vegetariana da clássica.</td>
+      </tr>
+      <tr>
+        <td>Força, foco e fé</td>
+        <td>Fit Carne</td>
+        <td>R$ 34,90</td>
+        <td class="status-on">ON</td>
+        <td>Carne magra com salada.</td>
+      </tr>
+      <tr>
+        <td>Força, foco e fé</td>
+        <td>Fit Frango</td>
+        <td>R$ 32,90</td>
+        <td class="status-on">ON</td>
+        <td>Arroz integral e legumes.</td>
+      </tr>
+      <tr>
+        <td>Mimo por R$2,99</td>
+        <td>Mini Brownie</td>
+        <td>R$ 2,99</td>
+        <td class="status-on">ON</td>
+        <td>Brownie de chocolate pequeno.</td>
+      </tr>
+      <tr>
+        <td>Mimo por R$2,99</td>
+        <td>Mini Cookie</td>
+        <td>R$ 2,99</td>
+        <td class="status-on">ON</td>
+        <td>Cookie artesanal.</td>
+      </tr>
+      <tr>
+        <td>Mimo por R$2,99</td>
+        <td>Mini Pudim</td>
+        <td>R$ 2,99</td>
+        <td class="status-off">OFF</td>
+        <td>Pudim individual.</td>
+      </tr>
+      <tr>
+        <td>Novos Wraps - Novo tamanho e formato</td>
+        <td>Wrap Carne Desfiada</td>
+        <td>R$ 26,90</td>
+        <td class="status-off">OFF</td>
+        <td>Wrap de carne com queijo.</td>
+      </tr>
+      <tr>
+        <td>Novos Wraps - Novo tamanho e formato</td>
+        <td>Wrap Frango Grelhado</td>
+        <td>R$ 24,90</td>
+        <td class="status-on">ON</td>
+        <td>Wrap de frango com salada.</td>
+      </tr>
+      <tr>
+        <td>Novos Wraps - Novo tamanho e formato</td>
+        <td>Wrap Veggie</td>
+        <td>R$ 23,90</td>
+        <td class="status-on">ON</td>
+        <td>Wrap de legumes grelhados.</td>
+      </tr>
+      <tr>
+        <td>Não julgue minha ;)</td>
+        <td>Super Proteína</td>
+        <td>R$ 39,90</td>
+        <td class="status-on">ON</td>
+        <td>3 tipos de proteína.</td>
+      </tr>
+      <tr>
+        <td>Não julgue minha ;)</td>
+        <td>Tudo Junto</td>
+        <td>R$ 42,90</td>
+        <td class="status-off">OFF</td>
+        <td>Mistura de todos os acompanhamentos.</td>
+      </tr>
+      <tr>
+        <td>Oferta do mês</td>
+        <td>Duo</td>
+        <td>R$ 54,90</td>
+        <td class="status-on">ON</td>
+        <td>Combo para duas pessoas.</td>
+      </tr>
+      <tr>
+        <td>Oferta do mês</td>
+        <td>Promo Família</td>
+        <td>R$ 89,90</td>
+        <td class="status-on">ON</td>
+        <td>Serve até 4 pessoas.</td>
+      </tr>
+      <tr>
+        <td>Para começar (Entradas)</td>
+        <td>Batata Rústica</td>
+        <td>R$ 18,90</td>
+        <td class="status-on">ON</td>
+        <td>Batata assada com alecrim.</td>
+      </tr>
+      <tr>
+        <td>Para começar (Entradas)</td>
+        <td>Coxinha de Frango</td>
+        <td>R$ 19,90</td>
+        <td class="status-on">ON</td>
+        <td>6 unidades.</td>
+      </tr>
+      <tr>
+        <td>Para começar (Entradas)</td>
+        <td>Dadinho de Tapioca</td>
+        <td>R$ 22,90</td>
+        <td class="status-off">OFF</td>
+        <td>Com geleia de pimenta.</td>
+      </tr>
+      <tr>
+        <td>Promoções</td>
+        <td>Do Dia</td>
+        <td>R$ 24,90</td>
+        <td class="status-on">ON</td>
+        <td>Prato do dia com preço especial.</td>
+      </tr>
+      <tr>
+        <td>Promoções</td>
+        <td>Surpresa</td>
+        <td>R$ 22,90</td>
+        <td class="status-off">OFF</td>
+        <td>Chef escolhe o sabor.</td>
+      </tr>
+      <tr>
+        <td>Sobremesas</td>
+        <td>Brownie com Sorvete</td>
+        <td>R$ 14,90</td>
+        <td class="status-on">ON</td>
+        <td>Brownie quente com sorvete.</td>
+      </tr>
+      <tr>
+        <td>Sobremesas</td>
+        <td>Mousse de Maracujá</td>
+        <td>R$ 10,90</td>
+        <td class="status-off">OFF</td>
+        <td>Mousse caseiro.</td>
+      </tr>
+      <tr>
+        <td>Sobremesas</td>
+        <td>Pudim de Leite</td>
+        <td>R$ 11,90</td>
+        <td class="status-on">ON</td>
+        <td>Clássico pudim brasileiro.</td>
+      </tr>
+      <tr>
+        <td>Suchás</td>
+        <td>Suchá Hibisco com Limão</td>
+        <td>R$ 12,90</td>
+        <td class="status-on">ON</td>
+        <td>Bebida leve e refrescante.</td>
+      </tr>
+      <tr>
+        <td>Suchás</td>
+        <td>Suchá Maçã com Canela</td>
+        <td>R$ 12,90</td>
+        <td class="status-off">OFF</td>
+        <td>Perfeito para dias frios.</td>
+      </tr>
+      <tr>
+        <td>Tô diferente</td>
+        <td>Sem Glúten</td>
+        <td>R$ 31,90</td>
+        <td class="status-on">ON</td>
+        <td>Sem glúten e sem lactose.</td>
+      </tr>
+      <tr>
+        <td>Tô diferente</td>
+        <td>Vegana</td>
+        <td>R$ 29,90</td>
+        <td class="status-on">ON</td>
+        <td>Proteína de soja, legumes e arroz.</td>
+      </tr>
+      <tr>
+        <td>Tô veggie</td>
+        <td>Veggie Clássica</td>
+        <td>R$ 27,90</td>
+        <td class="status-on">ON</td>
+        <td>Legumes, grão-de-bico e arroz.</td>
+      </tr>
+      <tr>
+        <td>Tô veggie</td>
+        <td>Veggie Gratinada</td>
+        <td>R$ 29,90</td>
+        <td class="status-off">OFF</td>
+        <td>Com queijo gratinado por cima.</td>
+      </tr>
+      <tr>
+        <td>Wrap Combos</td>
+        <td>Combo Wrap + Refri Lata</td>
+        <td>R$ 29,90</td>
+        <td class="status-on">ON</td>
+        <td>Qualquer wrap + refrigerante.</td>
+      </tr>
+      <tr>
+        <td>Wrap Combos</td>
+        <td>Combo Wrap + Suco</td>
+        <td>R$ 32,90</td>
+        <td class="status-on">ON</td>
+        <td>Qualquer wrap + suco natural.</td>
+      </tr>
+      <tr>
+        <td>[Novidade] Personalize!</td>
+        <td>Low Carb</td>
+        <td>R$ 34,90</td>
+        <td class="status-off">OFF</td>
+        <td>Base de legumes, sem arroz.</td>
+      </tr>
+      <tr>
+        <td>[Novidade] Personalize!</td>
+        <td>Monte seu pedido</td>
+        <td>R$ 32,90</td>
+        <td class="status-on">ON</td>
+        <td>Escolha proteínas e acompanhamentos.</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
